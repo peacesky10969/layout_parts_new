@@ -2,4 +2,112 @@
 
 /* 回答はここに書いてね */
 
+/* q7-1↓ */
+
+.float_box {
+  width: 205px;
+  font-size: 16px;
+  float: left
+}
+
+.float_box:first-child {
+  margin-right: 50px;
+}
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* q7-1↑ */
+
+/* q7-2↓ */
+
+.table_container {
+  display: table;
+}
+
+.table_box {
+  display: table-cell;
+}
+
+.table_text {
+  width: 225px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.table_box:first-child {
+  vertical-align: middle;
+}
+
+.table_box:last-child {
+  padding-left: 50px;
+}
+
+/* q7-2↑ */
+
+/* q7-3↓ */
+
+.inlineblock_container {
+  font-size: 0;
+}
+
+.inlineblock_box {
+  vertical-align: middle;
+  width: 225px;
+  box-sizing: border-box;
+  font-size: 16px;
+  display: inline-block;
+}
+
+.inlineblock_box:first-child {
+  margin-right: 50px;
+}
+
+/* q7-3↑ */
+
+/* q7-4↓ */
+
+.flex_container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+}
+
+.flex_box {
+  font-size: 16px;
+  width: 225px;
+  box-sizing: border-box;
+}
+
+/* q7-4↑ */
+
+/* q7-5↓ */
+
+.inlineblockmargin_container {
+  font-size: 0;
+}
+
+.inlineblockmargin_box {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 16px;
+}
+
+.fixed_box {
+  width: 300px;
+  box-sizing: border-box;
+}
+
+.variable_box {
+  width: 100%;
+  margin-left: -300px;
+}
+
+.variable_text {
+  margin-left: 350px;
+}
+
 /* 回答はここに書いてね */
