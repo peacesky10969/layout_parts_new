@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+  <!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -30,28 +30,28 @@
           <!-- 回答はここに書いてね -->
           <!-- すでについてるクラスにはstyleを指定しない。styleをつける場合は自分で新たにクラスをつけること -->
           <!-- 新たにタグは追加しなくてもできます。 -->
-          <div class="q8 q8--btn">
-            <p class="q8__title">ー small ー</p>
-            <div>common</div>
-            <div>error</div>
-            <div>disabled</div>
-            <div>shadow</div>
+          <div class="q8 q8--btn flex_container">
+            <p class="q8__title title_style">ー small ー</p>
+            <div class="smallbtn common_style">common</div>
+            <div class="smallbtn error_style">error</div>
+            <div class="smallbtn disabled_style">disabled</div>
+            <div class="smallbtn shadow_style">shadow</div>
           </div>
 
-          <div class="q8 q8--btn">
-            <p class="q8__title">ー middle ー</p>
-            <div>common</div>
-            <div>error</div>
-            <div>disabled</div>
-            <div>shadow</div>
+          <div class="q8 q8--btn flex_container">
+            <p class="q8__title title_style">ー middle ー</p>
+            <div class="middlebtn common_style">common</div>
+            <div class="middlebtn error_style">error</div>
+            <div class="middlebtn disabled_style">disabled</div>
+            <div class="middlebtn shadow_style">shadow</div>
           </div>
 
-          <div class="q8 q8--btn">
-            <p class="q8__title">ー large ー</p>
-            <div>common</div>
-            <div>error</div>
-            <div>disabled</div>
-            <div>shadow</div>
+          <div class="q8 q8--btn flex_container">
+            <p class="q8__title title_style">ー large ー</p>
+            <div class="largebtn common_style">common</div>
+            <div class="largebtn error_style">error</div>
+            <div class="largebtn disabled_style">disabled</div>
+            <div class="largebtn shadow_style">shadow</div>
           </div>
           <!-- 回答はここに書いてね -->
         </div>
@@ -99,7 +99,75 @@
           <!-- 回答はここに書いてね -->
           <!-- すでについてるクラスにはstyleを指定しない。styleを付ける場合は自分で新たにクラスをつけること -->
           <div class="q8">
-            
+            <form class="form_container">
+              <div class="form_title">
+                <p class="form_title_text">Form Exercise</p>
+              </div>
+              <div class="clearfix">
+                <div class="main_container">
+                  <ul class="main_list">
+                    <li class="list_items clearfix">
+                      <p class="items_title">名前<span class="is-red">*</span></p>
+                      <div class="items_content">
+                        <input class="main_contents input_style" type="text" name="name" required="">
+                      </div>
+                    </li>
+                    <li class="list_items clearfix">
+                      <p class="items_title">性別</p>
+                      <div class="items_content">
+                        <label class="radio_btn_content">
+                          <input class="radio_btn" type="radio" name="gender" value="male">
+                          <span class="radio_btn_text">男性</span>
+                        </label>
+                        <label class="radio_btn_content">
+                          <input class="radio_btn" type="radio" name="gender" value="female">
+                          <span class="radio_btn_text">女性</span>
+                        </label>
+                      </div>
+                    </li>
+                    <li class="list_items clearfix">
+                      <p class="items_title">出身</p>
+                      <div class="items_content select_is_relative">
+                        <select class="select_content input_style" name="from">
+                          <option value="1">東京</option>
+                          <option value="2">千葉</option>
+                          <option value="3">埼玉</option>
+                          <option value="4">神奈川</option>
+                        </select>
+                      </div>
+                    </li>
+                    <li class="list_items clearfix">
+                      <p class="items_title">Eメール<span class="is-red">*</span></p>
+                      <div class="items_content">
+                        <input class="main_contents input_style" type="email" name="e-mail" placeholder="ex) hoge@gmail.com" required="">
+                      </div>
+                    </li>
+                    <li class="list_items clearfix">
+                      <p class="items_title">電話番号</p>
+                      <div class="items_content">
+                        <input class="main_contents input_style" type="text" name="phone_number" placeholder="ex) 08012345678">
+                      </div>
+                    </li>
+                    <li class="list_items clearfix">
+                      <div class="items_content">
+                        <div class="checkbox_content">
+                          <input class="checkbox_btn" type="checkbox" name="greater_than_twenty" id="checkbox_btn">
+                          <label class="checkbox_text" for="checkbox_btn">20歳以上です</label>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+
+                  <div class="main_bottom_item">
+                    <button class="submit_btn input_style" type="submit">送信</button>
+                  </div>
+                </div>
+
+                <div class="secondary_container">
+                  <textarea class="secondary_textarea input_style" name="message" id="" cols="30" rows="10" placeholder="何かあれば入力してください。"></textarea>
+                </div>
+              </div>
+            </form>
           </div>
           <!-- 回答はここに書いてね -->
         </div>
