@@ -4,31 +4,27 @@
 .the_table {
   width: 100%;
   border: solid #dedede 1px;
+  table-layout: fixed;
 }
 
-.the_cell {
+th,td {
   border: solid #dedede 1px;
   padding: 10px;
   text-align: center;
   vertical-align: center;
 }
 
-.table_row:first-child {
+th {
   background-color: #2244aa;
   color: #ffffff;
 }
 
-.the_cell:first-child {
-  background-color: #2244aa;
-  color: #ffffff;
-}
-
-.table_row:last-child {
+tr:last-child {
   border-top: dashed #000 2px;
 }
 
-.table_row:nth-child(3),
-.table_row:nth-child(5) {
+tr:nth-child(3),
+tr:nth-child(5) {
   background-color: #ecf1f2;
 }
 /* 回答はここに書いてね */
