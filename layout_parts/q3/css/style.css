@@ -19,12 +19,11 @@ th {
   color: #ffffff;
 }
 
-tr:last-child {
+tbody tr:last-child {
   border-top: dashed #000 2px;
 }
 
-tr:nth-child(3),
-tr:nth-child(5) {
+tbody tr:nth-child(even) {
   background-color: #ecf1f2;
 }
 /* 回答はここに書いてね */

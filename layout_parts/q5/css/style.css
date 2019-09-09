@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.wrapper_of_container {
+.container {
   margin: auto;
   width: 500px;
   height: 500px;
@@ -9,17 +9,14 @@
   position: relative;
 }
 
-.container {
+.card {
+  position: absolute;
   width: 100px;
   height: 100px;
   font-size: 40px;
   font-weight: bold;
   text-align: center;
   line-height: 100px;
-}
-
-.container:not(.box9) {
-  position: absolute;
 }
 
 .box8 {

@@ -14,17 +14,25 @@
   z-index: 0;
 }
 
+.comment:before {
+  content: "";
+  position: absolute;
+  border-top: 25px solid #222;
+  border-right: 25px solid transparent;
+  border-left: 25px solid transparent;
+  top: 100%;
+  left: 5%;
+  z-index: 1;
+}
+
 .comment:after {
   content: "";
   position: absolute;
-  width: 30px;
-  height: 30px;
-  background-color: #fff;
-  border-left: 5px solid #222;
-  border-bottom: 5px solid #222;
-  transform: rotate(-45deg);
-  z-index: 1;
-  left: 50px;
-  bottom: -20px;
+  border-top: 16px solid #fff;
+  border-right: 16px solid transparent;
+  border-left: 16px solid transparent;
+  top: 100%;
+  left: 6.9%;
+  z-index: 2;
 }
 /* 回答はここに書いてね */

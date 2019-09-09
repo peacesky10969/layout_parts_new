@@ -6,12 +6,13 @@
 
 .float_box {
   width: 205px;
+  margin-left: 50px;
   font-size: 16px;
-  float: left
+  float: left;
 }
 
 .float_box:first-child {
-  margin-right: 50px;
+  margin-left: 0;
 }
 
 .clearfix:after {
@@ -103,11 +104,11 @@
 
 .variable_box {
   width: 100%;
+  padding-left: 350px;
+  box-sizing: border-box;
   margin-left: -300px;
 }
 
-.variable_text {
-  margin-left: 350px;
-}
+
 
 /* 回答はここに書いてね */
