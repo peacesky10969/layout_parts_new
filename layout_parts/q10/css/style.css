@@ -15,24 +15,25 @@
 }
 
 .comment:before {
-  content: "";
-  position: absolute;
   border-top: 25px solid #222;
   border-right: 25px solid transparent;
   border-left: 25px solid transparent;
-  top: 100%;
   left: 5%;
   z-index: 1;
 }
 
 .comment:after {
-  content: "";
-  position: absolute;
   border-top: 16px solid #fff;
   border-right: 16px solid transparent;
   border-left: 16px solid transparent;
-  top: 100%;
   left: 6.9%;
   z-index: 2;
+}
+
+.comment:after,.comment:before {
+  content: "";
+  position: absolute;
+  top: 100%;
+
 }
 /* 回答はここに書いてね */

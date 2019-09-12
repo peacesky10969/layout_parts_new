@@ -7,23 +7,22 @@
   table-layout: fixed;
 }
 
-th,td {
+.the_table th,.the_table td {
   border: solid #dedede 1px;
   padding: 10px;
   text-align: center;
-  vertical-align: center;
 }
 
-th {
+.the_table th {
   background-color: #2244aa;
   color: #ffffff;
 }
 
-tbody tr:last-child {
+.the_table tbody tr:last-child {
   border-top: dashed #000 2px;
 }
 
-tbody tr:nth-child(even) {
+.the_table tbody tr:nth-child(even) {
   background-color: #ecf1f2;
 }
 /* 回答はここに書いてね */
